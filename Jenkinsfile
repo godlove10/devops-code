@@ -7,13 +7,13 @@ pipeline {
         sleep 10
       }
     }
-    stage('Build'){
+    stage('Test'){
       steps {
         echo "test step"
         sleep 10
       }
     }
-    stage('Build'){
+    stage('Deploy'){
       steps {
         echo "Deploy step"
         sleep 10
